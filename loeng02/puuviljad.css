@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;  /*saan valida terve lehe fondi*/
+}
+
+h1 {
+    color: blueviolet;               /*pealkirja 1 värv*/                                                                                          
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  /*kui tahan erinevat font saan üle sõita ülem reeglist*/
+}
+
+li {
+    font-size: 1.5rem;             /*saan valida fondi suuruse standart on 16pix siis 1,5rem tähendab 1,5 korda suurem*/ 
+}
+
+.troopiline {
+    color: orangered;           /* klasside muudatused */
+}
+
+.luuviljalised {
+    font-weight: 700;
+}
