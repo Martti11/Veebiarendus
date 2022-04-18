@@ -1,14 +1,21 @@
 <style>
-        html {
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+        html
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+         {
             font-size: 20px;
         }
         h1 {
-            color: blue;
+            color: blue; font-size: 30px;
         }
         #konteiner {
-            background-color: lightgray;
+            background-color: rgb(230, 222, 222);
             width: 400px;
-            border-color: black;
+            border-color: rgb(107, 101, 101);
             border-style: solid;
             border-width: 2px;
             padding-left: 15px;
