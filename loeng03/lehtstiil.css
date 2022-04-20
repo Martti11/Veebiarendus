@@ -89,7 +89,7 @@ html {
 }
 
 .uudised3 {                                                         /* kolmas kast */
-    width: 650px;
+    width: 650px;                                                   /* kui tahan, et kast muutuks koos tekstiga, et see mahuks ära siis ei tohi ette anda suuruseid vaid nt kõrgusele apanna ainult fit-content ja tuleks teha üldine ülem klass kus on üldised andmed  */
     height: 350px;
     background-color: rgb(232, 255, 127);
     border-style: solid;

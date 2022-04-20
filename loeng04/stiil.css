@@ -1,0 +1,107 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;                                            /* kui tahan borderless kujundust */
+}
+
+header {
+    background-color: cyan;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-image: url(./tree-736885__480.jpg);
+    background-repeat: no-repeat;
+    background-position: top;                           /*mis osa pildist tahan kasutada, kui ei ole õiges mõõdus */
+    background-size: cover;
+    
+}
+
+header img {
+    width: 150px;
+}
+
+header h1 {
+    color: white;
+}
+
+header a {
+    color: rgb(38, 0, 255);
+}
+
+header a:hover {
+    color: aqua;
+}
+
+header a:active {
+    color: darkgray;
+}
+
+nav {                                   /* üldine navi kujundus */
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    margin-top: 15px;
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;       /*   kui ei taha navi linkide ette tärne */
+
+}
+
+nav > ul > li > a {                                     /*menüü vahel tühikud */
+    color: white;
+    margin-left: 10px;
+}
+
+
+main {
+    background-color: rgb(18, 21, 231);
+    display: flex;
+    min-height: 500px;
+}
+
+aside {                                                             /*külgpaan */
+    
+    width: 20%;
+
+}
+
+main aside {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reklaam {
+    width: 80%;
+    
+}
+
+section {
+    min-height: 300px;
+    width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.pildiga-blokk {
+    display: flex;
+
+}
+
+.pildiga-blokk img {
+    width: 45%;
+}
+
+footer {
+    background-color: brown;
+    min-height: 100px;
+}
