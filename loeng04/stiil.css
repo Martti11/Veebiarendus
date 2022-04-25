@@ -1,16 +1,20 @@
 body {
     font-family: 'Lato', sans-serif;
-    margin: 0px;                                            /* kui tahan borderless kujundust */
+    margin: 0px;
+    background-color: rgb(63, 63, 63);                                            /* kui tahan borderless kujundust */
+}
+
+a:link {
+    text-decoration: none;
 }
 
 header {
-    background-color: cyan;
+    background-color: rgb(63, 63, 63);
     min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-image: url(./tree-736885__480.jpg);
     background-repeat: no-repeat;
     background-position: top;                           /*mis osa pildist tahan kasutada, kui ei ole õiges mõõdus */
     background-size: cover;
@@ -26,7 +30,7 @@ header h1 {
 }
 
 header a {
-    color: rgb(38, 0, 255);
+    color: rgb(255, 255, 255);
 }
 
 header a:hover {
@@ -40,10 +44,11 @@ header a:active {
 nav {                                   /* üldine navi kujundus */
     display: flex;
     justify-content: center;
-    background-color: darkcyan;
+    background-color: rgb(63, 63, 63);
     margin-top: 15px;
     margin: 0;
     margin-bottom: 15px;
+    background-color: rgb(113, 121, 121);
 
 }
 
@@ -60,9 +65,9 @@ nav > ul > li > a {                                     /*menüü vahel tühikud
 
 
 main {
-    background-color: rgb(18, 21, 231);
+    background-color: rgb(63, 63, 63);
     display: flex;
-    min-height: 500px;
+    min-height: 680px;
 }
 
 aside {                                                             /*külgpaan */
@@ -79,29 +84,113 @@ main aside {
     align-items: center;
 }
 
+.aside1 {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
 .reklaam {
     width: 80%;
     
 }
 
 section {
-    min-height: 300px;
-    width: 80%;
+    min-height: ;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
 .pildiga-blokk {
     display: flex;
-
+  
 }
 
 .pildiga-blokk img {
     width: 45%;
+    
 }
 
 footer {
-    background-color: brown;
-    min-height: 100px;
+    background-color: rgb(113, 121, 121);
+    min-height: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+    margin: 0;
+    display: flex;
 }
+
+.footermenu {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    width: 90%;
+    min-height: 50px; 
+    margin-left: 100px;  
+    align-items: left;
+    flex-wrap: wrap;
+    
+}
+
+.footermenu a {
+    color: rgb(255, 255, 255);
+
+}
+
+
+footer1 {
+    font-size: small;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;   
+    justify-content: right; 
+    margin-right: 15px; 
+    
+
+}
+
+ ul1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    list-style-type: none;  
+    color: rgb(255, 255, 255);   
+    align-content: left; 
+
+}
+
+
+
+.blokk li {
+    padding: 15px;
+}
+
+.footermenu h1 {                                        /* kui tahan eralid seda pealkirja muuta siis see toimib */
+    color: rgb(255, 255, 255);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: aliceblue;
+    text-decoration: none;
+    max-width: 10%;
+    justify-content: left;
+
+}
+
+.menu {
+    color: rgb(255, 255, 255);
+}
+
+
