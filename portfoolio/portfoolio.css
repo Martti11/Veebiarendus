@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    min-height: 100px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+@media screen and (min-width: 576px) {
+    .pealkiri {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .t66d {
+        width: 45%;
+        margin-right: 1rem;
+        display: flex;        
+        flex-direction: row;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        
+        
+        
+    }
+
+    @media screen and (min-width: 992px) {
+        .t66d {
+            width: 45%;
+            height: fit-content;
+        }
+
+
+
+    
+    
+}
