@@ -45,7 +45,7 @@ body {
     padding-top: 200px;
 }
 
-.paisSektsioon h2, .paisSektsioon h2, .paisSektsioonh3 {
+.paisSektsioon h1, .paisSektsioon h2, .paisSektsioon h3 {
     letter-spacing: 0px;
     color: #0B0B0B;
     text-transform: uppercase;
