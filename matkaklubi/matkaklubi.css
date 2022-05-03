@@ -27,6 +27,38 @@ body {
 
 }
 
+.pais-menyy {    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.67px;
+    margin-left: auto;
+    
+}
+
+.pais-menyy ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.pais-menyy li {
+    padding: 0;
+    margin-left: 10px;
+    min-width: 100px;
+}
+
+.pais-menyy a {
+    color: #0B0B0B;
+}
+
+
+
+
+
 @media screen and (min-width: 1200px) {
     .paisSektsioon {
         background-image: url(./assets/Hills@2x.png);
@@ -61,7 +93,7 @@ body {
     line-height: 29.17px;
 }
 .paisSektsioon h1 {
-    font-size: 74.397px;
+    font-size: 74.39px;
     line-height: 91px;
 }
 
