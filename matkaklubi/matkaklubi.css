@@ -55,7 +55,40 @@ body {
     color: #0B0B0B;
 }
 
+.broneering {       
+    background-color: #0B0B0B;
+    top: 578px;
+    left: 73px;
+    width: 247px;
+    height: 58px; 
+    
+}
 
+.broneering li {
+    top: 599px;
+    left: 96px;
+    width: 202px;
+    height: 15px;
+    padding-left: 22.5px;
+    letter-spacing: 2.25px;
+    color: #ffffff;
+    padding-top: 15px;
+    
+
+}
+
+.broneering ul {
+    list-style-type: none;
+    
+    
+}
+
+.broneering a {
+    color: azure;
+    text-decoration: none;
+    
+    
+}
 
 
 
@@ -102,6 +135,21 @@ body {
     width: 75px;
     height: 66px;
     margin-left: auto;
+}
+
+.liblikas2 {
+    width: 60px;
+    height: 32px;
+    margin-left: -60px;
+}
+
+.matkaja {
+    border-radius: 50%;
+    width: 914px;
+    top: 114px;
+    height: 914px;
+    left: 760px;
+    
 }
 
 @media screen and (min-width: 768px) {
