@@ -135,9 +135,19 @@ body {
     top: 114px;
     height: 914px;
     left: 760px;
-   
+    overflow: hidden;
+    margin-right: -400px;
+    z-index: 2;
+     
     
+}
+
+.vari {   
+    width: 914px;
+    margin-top: -32px;
+    z-index: 1;
     
+
 }
 
 @media screen and (min-width: 768px) {
